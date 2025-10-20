@@ -1,8 +1,6 @@
 module github.com/bishopfox/sliver
 
-go 1.22.0
-
-toolchain go1.22.2
+go 1.23
 
 replace github.com/rsteube/carapace v0.36.3 => github.com/reeflective/carapace v0.46.3-0.20231214181515-27e49f3c3b69
 
@@ -27,7 +25,7 @@ require (
 	github.com/grpc-ecosystem/go-grpc-middleware v1.4.0
 	github.com/jedib0t/go-pretty/v6 v6.5.9
 	github.com/kbinani/screenshot v0.0.0-20191211154542-3a185f1ce18f
-	github.com/klauspost/compress v1.17.9
+	github.com/klauspost/compress v1.18.1
 	github.com/lesnuages/go-winio v0.4.19
 	github.com/lesnuages/snitch v0.6.0
 	github.com/mattn/go-sqlite3 v1.14.22
